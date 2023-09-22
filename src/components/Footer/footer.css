@@ -1,0 +1,51 @@
+footer.separator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  min-height: 30vh;
+  background-color: rgb(41, 40, 40);
+  color: #fff;
+  padding-top: 1em;
+  padding-bottom: .8em;
+  font-size: 0.8rem;
+}
+
+footer .nav {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.nav li {
+  position: relative;
+  padding-right: 20px;
+}
+
+.nav li:not(:last-child)::after {
+  content: ' |';
+  position: absolute;
+  right: 8px;
+  color: #999;
+}
+
+.icons-container,
+.icons-container ul {
+  display: flex;
+}
+
+.icons-container {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center
+}
+
+.icons-container ul {
+  display: flex;
+  gap: 1em;
+}
+
+.icons-container .social {
+  width: 30px;
+  height: 30px;
+}

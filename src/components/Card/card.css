@@ -1,0 +1,33 @@
+.card {
+  position: relative;
+  color: #fff;
+  max-width: 133px;
+}
+
+.card h3 {
+  position: absolute;
+  text-transform: uppercase;
+  top: 35%;
+  bottom: 30%;
+  left: 0;
+  right: 0;
+  font-size: 1.7em;
+}
+
+.card h4{
+  text-align: left;
+  color: black;
+  font-size: .8em;
+  font-weight: 800;
+}
+
+.card img {
+  aspect-ratio: 1/1.5;
+  height: 200px;
+  object-fit: contain;
+  background-color: #1E1E1E;
+}
+
+.card img:hover{
+  filter: contrast(1.2) brightness(1.2);
+}

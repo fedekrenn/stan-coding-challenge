@@ -1,0 +1,8 @@
+.card-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin: 2em 0;
+  background-color: rgb(238, 235, 231);
+}
