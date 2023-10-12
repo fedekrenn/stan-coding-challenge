@@ -15,14 +15,8 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route
-            path="/peliculas"
-            element={<MediaContainer type="movie" />}
-          />
-          <Route
-            path="/series"
-            element={<MediaContainer type="series" />}
-          />
+          <Route path="/peliculas" element={<MediaContainer type="movie" />} />
+          <Route path="/series" element={<MediaContainer type="series" />} />
         </Routes>
       </main>
       <Footer />

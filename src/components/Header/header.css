@@ -14,7 +14,23 @@ header ul {
   list-style-type: none;
 }
 
-header .btn{
+header .btn {
   background-color: rgb(41, 40, 40);
   padding: .2em .6em;
+}
+
+@media (max-width: 768px) {
+  header {
+    justify-content: center;
+  }
+
+  header nav {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.5rem;
+  }
 }

@@ -6,3 +6,16 @@
   margin: 2em 0;
   background-color: rgb(238, 235, 231);
 }
+
+@media (max-width: 768px) {
+  .card-container {
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 590px) {
+  section.separator {
+    padding: 2em .8em;
+  }
+}

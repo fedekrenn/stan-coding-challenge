@@ -12,7 +12,8 @@ li {
 }
 
 h1 {
-  text-align: left;
+  font-size: 1.8em;
+  line-height: 1.1;
 }
 
 h2.separator {
@@ -34,4 +35,12 @@ img {
 .info {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+
+@media (max-width: 768px) {
+  h2.separator {
+    text-align: center;
+    font-size: 1em;
+  }
 }

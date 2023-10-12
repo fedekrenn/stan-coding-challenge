@@ -49,3 +49,34 @@ footer .nav {
   width: 30px;
   height: 30px;
 }
+
+@media (max-width: 768px) {
+  footer.separator {
+    align-items: center;
+    gap: 40px
+  }
+
+  .icons-container {
+    flex-direction: column;
+    gap: 20px
+  }
+}
+
+@media (max-width: 680px) {
+
+  footer.separator {
+    padding: 2em .5em;
+  }
+
+  footer .nav {
+    flex-direction: column;
+  }
+
+  .nav li {
+    padding: 0
+  }
+
+  .nav li:not(:last-child)::after {
+    display: none
+  }
+}
